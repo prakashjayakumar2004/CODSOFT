@@ -44,7 +44,11 @@ nav {
     cursor: pointer;
   }
   
-  
+  a:hover{
+    text-decoration: underline;
+    text-underline-offset: 1rem;
+  }
+
   header {
     background-image: url("Image/bim.jpg");
     background-position: center center;
@@ -131,6 +135,6 @@ nav {
   }
 
   .card:hover {
-    height: 250px;
+    height: 200px;
   }
  
